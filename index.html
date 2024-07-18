@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="team">HOME</h3>
+                <h2 class ="score" id="home-score">0</h2>
+                <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+1</button>
+                <button id="home-score-btn-2" onclick="increaseHomeScoreTwo()">+2</button>
+                <button id="home-score-btn-3" onclick="increaseHomeScoreThree()">+3</button>
+                <p class="fouls"id="fouls">Fouls</p>
+                <h1 class="OK" id="fouls-score">0</h1>
+                
+                <button class="OK1" id="fouls-increase-btn" onclick="increaseFouls()">+</button>
+           
+            </div>
+            <div>
+                <p class="HEY" id="period">Period</p>
+                <h2 class="HEY1" id="period-score">0</h2>
+                <button class="HEY2" id="period-btn" onclick="increasePeriod()">+</button>
+            </div>
+            <div> 
+                <button class="RESET" id="new-game-btn" onclick="resetScores()">New Game</button>
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+                <h3 class="team">GUEST</h3>
+                <h2 class ="goals" id="guest-score">0</h2>
+                <button id="guest-score-btn-1" onclick="increaseGuest1()">+1</button>
+                <button id="guest-score-btn-2" onclick="increaseGuest2()">+2</button>
+                <button id="guest-score-btn-3" onclick="increaseGuest3()">+3</button>
+                <p class="fouls"id="fouls">Fouls</p>
+                <h1 class="OK" id="fouls-nbr">0</h1>
+               
+            <button class="OK1" id="fouls-increase-btn" onclick="incrementFouls()">+</button>
+            </div>
+                
+                
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

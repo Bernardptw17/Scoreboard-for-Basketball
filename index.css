@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: midnightblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.goals{
+    background-color: black;
+    color:green;
+    display: flex;
+    justify-content: center; /* Horizontally centers the text */
+    align-items: center;    /* Vertically centers the text */
+    height: 80px;         /* Adjust height as needed */
+    width: 120px;           /* Adjust width as needed */
+    border: 2px solid black;/* Border styling */
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+.score{
+    background-color: black;
+    color:green;
+    display: flex;
+    justify-content: center; /* Horizontally centers the text */
+    align-items: center;    /* Vertically centers the text */
+    height: 80px;         /* Adjust height as needed */
+    width: 120px;           /* Adjust width as needed */
+    border: 2px solid black;/* Border styling */
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.team{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    
+}
+button{
+    background-color: midnightblue;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 0px;
+    margin-left: 5px;
+    
+}
+.fouls{
+    color: white;
+    margin-left: 30px;
+}
+.OK{
+    margin-left: 40px;
+}
+.OK1{
+   margin-left: 35px; 
+}
+.RESET{
+    background-color: green;
+    width: 100px;
+    margin-top: 240px;
+    margin-left: -50px;
+}
+.HEY{
+    color: white;
+    margin-left: 200px;
+    margin-right: -200px;
+    margin-top: 70px;
+}
+.HEY1{
+    color: crimson;
+    background-color: black;
+    justify-content: center; /* Horizontally centers the text */
+    align-items: center;    /* Vertically centers the text */   
+    display: flex;
+    height: 50px;         /* Adjust height as needed */
+    width: 50px;           /* Adjust width as needed */
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: -180px;
+}
+.HEY2{
+    margin-left: 210px;
+    margin-right: -210px;
+}
